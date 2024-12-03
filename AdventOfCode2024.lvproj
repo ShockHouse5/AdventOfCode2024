@@ -20,6 +20,10 @@
 			<Item Name="Day2.vi" Type="VI" URL="../Day2.vi"/>
 			<Item Name="Day2Part2.vi" Type="VI" URL="../Day2Part2.vi"/>
 		</Item>
+		<Item Name="Day3" Type="Folder">
+			<Item Name="Day3.vi" Type="VI" URL="../Day3.vi"/>
+			<Item Name="Day3Part2.vi" Type="VI" URL="../Day3Part2.vi"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
