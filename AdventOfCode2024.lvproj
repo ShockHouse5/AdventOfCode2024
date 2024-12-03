@@ -13,29 +13,44 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Day1" Type="Folder">
+			<Item Name="Day1.lvtest" Type="TestItem" URL="../Day1.lvtest">
+				<Property Name="utf.test.bind" Type="Str">Day1.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">5668C6C9-27B9-036C-B824-CE970AA2124E</Property>
+			</Item>
 			<Item Name="Day1.vi" Type="VI" URL="../Day1.vi"/>
+			<Item Name="Day1Part2.lvtest" Type="TestItem" URL="../Day1Part2.lvtest">
+				<Property Name="utf.test.bind" Type="Str">Day1Part2.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">6D27D9FF-BEE8-98B2-980B-5AF286D1A41A</Property>
+			</Item>
 			<Item Name="Day1Part2.vi" Type="VI" URL="../Day1Part2.vi"/>
 		</Item>
 		<Item Name="Day2" Type="Folder">
+			<Item Name="Day2.lvtest" Type="TestItem" URL="../Day2.lvtest">
+				<Property Name="utf.test.bind" Type="Str">Day2.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">F8D4E3A1-97AC-FFB0-041E-A1D17426483B</Property>
+			</Item>
 			<Item Name="Day2.vi" Type="VI" URL="../Day2.vi"/>
+			<Item Name="Day2Part2.lvtest" Type="TestItem" URL="../Day2Part2.lvtest">
+				<Property Name="utf.test.bind" Type="Str">Day2Part2.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">4A69AA00-624A-7341-EB48-0CF29F8F4838</Property>
+			</Item>
 			<Item Name="Day2Part2.vi" Type="VI" URL="../Day2Part2.vi"/>
 		</Item>
 		<Item Name="Day3" Type="Folder">
+			<Item Name="Day3.lvtest" Type="TestItem" URL="../Day3.lvtest">
+				<Property Name="utf.test.bind" Type="Str">Day3.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">F50B2754-EF6E-AF54-29E1-50C3C8ECDFCB</Property>
+			</Item>
 			<Item Name="Day3.vi" Type="VI" URL="../Day3.vi"/>
+			<Item Name="Day3Part2.lvtest" Type="TestItem" URL="../Day3Part2.lvtest">
+				<Property Name="utf.test.bind" Type="Str">Day3Part2.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">A3979EFD-529D-846F-802C-EAFE95873425</Property>
+			</Item>
 			<Item Name="Day3Part2.vi" Type="VI" URL="../Day3Part2.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
-				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
-				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
-				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
-				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
-				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
-				<Item Name="Read Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (string).vi"/>
-				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
-				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
-				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
+				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 			</Item>
 		</Item>
