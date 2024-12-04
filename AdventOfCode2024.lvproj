@@ -48,10 +48,38 @@
 			</Item>
 			<Item Name="Day3Part2.vi" Type="VI" URL="../Day3Part2.vi"/>
 		</Item>
+		<Item Name="Day4" Type="Folder">
+			<Item Name="Day4.lvtest" Type="TestItem" URL="../Day4.lvtest">
+				<Property Name="utf.test.bind" Type="Str">Day4.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">C25C44CB-CB88-5685-5FC1-F1BD452CADEA</Property>
+			</Item>
+			<Item Name="Day4.vi" Type="VI" URL="../Day4.vi"/>
+			<Item Name="Day4Direction.ctl" Type="VI" URL="../Day4Direction.ctl"/>
+			<Item Name="Day4Part2.lvtest" Type="TestItem" URL="../Day4Part2.lvtest">
+				<Property Name="utf.test.bind" Type="Str">Day4Part2.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">92AC1228-9C50-878B-B13E-5DBD7C130D83</Property>
+			</Item>
+			<Item Name="Day4Part2.vi" Type="VI" URL="../Day4Part2.vi"/>
+			<Item Name="Day4Recurse.vi" Type="VI" URL="../Day4Recurse.vi"/>
+			<Item Name="Day4XYFromDirection.vi" Type="VI" URL="../Day4XYFromDirection.vi"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="openg_error.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/openg_error.lvlib"/>
+				<Item Name="openg_string.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/openg_string.lvlib"/>
+				<Item Name="openg_variant.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/openg_variant.lvlib"/>
+			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Get LV Class Default Value By Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value By Name.vi"/>
+				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
+				<Item Name="LV70DateRecToTimeStamp.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70DateRecToTimeStamp.vi"/>
+				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
+				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
+				<Item Name="Qualified Name Array To Single String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Qualified Name Array To Single String.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
