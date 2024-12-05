@@ -63,6 +63,18 @@
 			<Item Name="Day4Recurse.vi" Type="VI" URL="../Day4Recurse.vi"/>
 			<Item Name="Day4XYFromDirection.vi" Type="VI" URL="../Day4XYFromDirection.vi"/>
 		</Item>
+		<Item Name="Day5" Type="Folder">
+			<Item Name="Day5.lvtest" Type="TestItem" URL="../Day5.lvtest">
+				<Property Name="utf.test.bind" Type="Str">Day5.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">B58B2B1D-6F22-AAF0-B41F-4698726FB282</Property>
+			</Item>
+			<Item Name="Day5.vi" Type="VI" URL="../Day5.vi"/>
+			<Item Name="Day5Part2.lvtest" Type="TestItem" URL="../Day5Part2.lvtest">
+				<Property Name="utf.test.bind" Type="Str">Day5Part2.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">8BF6A8C8-EAF5-09D5-6913-F46DF7AEA00A</Property>
+			</Item>
+			<Item Name="Day5Part2.vi" Type="VI" URL="../Day5Part2.vi"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_error.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/openg_error.lvlib"/>
@@ -76,6 +88,7 @@
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="LV70DateRecToTimeStamp.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70DateRecToTimeStamp.vi"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
+				<Item Name="LVMapReplaceAction.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMapReplaceAction.ctl"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="Qualified Name Array To Single String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Qualified Name Array To Single String.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
