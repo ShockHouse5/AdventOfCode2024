@@ -75,6 +75,10 @@
 			</Item>
 			<Item Name="Day5Part2.vi" Type="VI" URL="../Day5Part2.vi"/>
 		</Item>
+		<Item Name="Day6" Type="Folder">
+			<Item Name="Day6.vi" Type="VI" URL="../Day6.vi"/>
+			<Item Name="Day6Part2.vi" Type="VI" URL="../Day6Part2.vi"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_error.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/openg_error.lvlib"/>
